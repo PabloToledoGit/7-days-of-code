@@ -6,6 +6,7 @@
     --cor-de-letra-padrao:#667085;
     --cor-de-letra-secundaria:#3A404E;
     --cor-de-letra-terciaria:#8E2424;
+    --cor-de-letra-quarternaria:#101828;
 
     --font-padrao: 'Inter', sans-serif;
 }
@@ -67,6 +68,13 @@
 
 }
 
+.corpo{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
 .corpo__sobre{
 
     color: var(--cor-de-letra-terciaria);
@@ -91,6 +99,23 @@
 
 }
 
+.corpo__sec2{
+    display: flex;
+    width: 1280px;
+    height: 192px;
+    margin-left: 3rem;
+    align-items: center;
+    justify-content: baseline;
+    gap:5rem ;
+    
+}
+
+.corpo__400{
+
+    width: 280px;
+    height: 168px;
+}
+
 .corpo__titulo{
 
     font-weight: 600;
@@ -104,5 +129,33 @@
     height: 60px;
     text-align: center;
     margin-top: 1rem;
+    color: var(--cor-de-letra-padrao);
     
+}
+
+.corpo__400__titulo{
+
+    color:var(--cor-de-letra-terciaria);
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    font-family: var(--font-padrao);
+
+}
+
+.corpo__400__span{
+
+    color:var(--cor-de-letra-quarternaria);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: var(--font-padrao);
+}
+
+.corpo__400__paragrafo{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-de-letra-padrao);
 }
