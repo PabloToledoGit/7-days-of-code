@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+@import url(/css/reset.css);
+@import url(/css/header.css);
 
 :root{
 
@@ -12,67 +14,13 @@
 }
 
 
-.cabecalho__nav{
 
-    display: flex;
-    justify-content:space-between;
-    
-    
-
-}
-
-.cabecalho__nav__titulo{
-    display: flex;
-    align-items: center;
-    gap:0.5rem;
-    margin-left: 3.5rem;
-    margin-top: 0.5rem;
-    font-family: var(--font-padrao);
-    
-}
-
-.cabecalho__nav__links{
-
-    
-    display: flex;
-    gap:1.5rem;
-    margin-top: 1.5rem;
-    margin-right: 17rem;
-    align-items: center;
-   
-}
-
-.cabecalho__nav__login{
-
-    display: flex;
-    margin-right: 5rem;
-    gap:1.2rem;
-    margin-top:1.6rem;
-    align-items: center;
-    
-}
-
-.cabecalho__nav__botoes{
-    text-decoration: none;
-    color: var(--cor-de-letra-padrao);
-}   
-
-.cadastrar{
-
-
-    background-color: var(--cor-de-letra-terciaria);
-    color: var(--cor-de-fundo);
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    font-family: var(--font-padrao);
-
-}
 
 .corpo{
 
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 6rem;
 }
 
 .corpo__sobre{
@@ -158,4 +106,11 @@
     font-size: 16px;
     line-height: 24px;
     color: var(--cor-de-letra-padrao);
+}
+
+.profissoes__base{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
